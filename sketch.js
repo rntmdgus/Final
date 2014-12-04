@@ -15,8 +15,8 @@ function draw(){
    
    noCursor();
 
-   라인
+   //라인
    noFill();
    stroke(255);
-   ellipse(500,500,500,500);
+   ellipse(500,500,600,600);
 }
