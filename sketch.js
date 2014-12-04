@@ -32,9 +32,9 @@ function draw(){
    noCursor();
 
    //라인
-   noFill();
-   stroke(255);
-   ellipse(500,500,500,500);
+   //noFill();
+   //stroke(255);
+   //ellipse(500,500,500,500);
 
 
    image(allwheel[i],500 + Math.cos(timing1*2*PI)*500 + Math.cos(timing2*4*PI)*500-100,
