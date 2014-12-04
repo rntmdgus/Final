@@ -18,6 +18,7 @@ function setup(){
 
 function draw(){
    background(bg);  
+   image(wheel,0,0,1000,1000);
 
    var duration1 = 8000;
    var timing1 = (new Date()%duration1)/duration1;
