@@ -19,9 +19,9 @@ function setup(){
 function draw(){
    background(bg);  
 
-   var duration1 = 7000;
+   var duration1 = 8000;
    var timing1 = (new Date()%duration1)/duration1;
-   var duration2 = 6000;
+   var duration2 = 7000;
    var timing2 = (new Date()%duration2)/duration2;
    
    noCursor();
