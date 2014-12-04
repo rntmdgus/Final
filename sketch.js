@@ -23,8 +23,11 @@ function setup(){
 
 function draw(){
    background(bg);  
-   image(wheel,0,0,1000,1000);
-   image(wheel1,0,0,200,200);
+
+   var duration1 = 7000;
+   var timing1 = (new Date()%duration1)/duration1;
+   var duration2 = 6000;
+   var timing2 = (new Date()%duration2)/duration2;
    
    noCursor();
 
@@ -34,16 +37,7 @@ function draw(){
    ellipse(500,500,500,500);
 
 
-   for(var i = 0 ; i < 8 ; i++){
-      X[i]=500+cos(t*2*PI+PI/6*i)*500;
-      Y[i]=500*sin(t*2*PI+PI/6*i);
-   }
-
-
-   for(var i = 0 ; i <8 ; i++){
-      if(50*sin(t*2*PI+PI/6*i)<0){
-            image(allwheelImg[i],X[i]-sizeX/2,Y[i]-sizeY/2,200,200);
-      }
-   }
+   image(allwheel[i],500 + Math.cos(timing1*2*PI)*500 + Math.cos(timing2*4*PI)*500-100,
+      500 + Math.sin(timing1*2*PI)*500 + Math.sin(timing2*4*PI)*500-100,200,200);
 
 }
