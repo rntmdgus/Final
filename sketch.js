@@ -32,7 +32,7 @@ function draw(){
    //ellipse(500,500,500,500);
 
 
-   image(wheel1,500 + Math.cos(timing1*2*PI)*250 + Math.cos(timing2*4*PI)*100-100,
-      500 + Math.sin(timing1*2*PI)*250 + Math.sin(timing2*4*PI)*100-100,200,200);
+   image(wheel1,500 + Math.cos(timing1*2*PI)*250 + Math.cos(timing2*4*PI)*250-100,
+      500 + Math.sin(timing1*2*PI)*250 + Math.sin(timing2*4*PI)*250-100,200,200);
 
 }
