@@ -9,7 +9,7 @@ function setup(){
 
 function draw(){
    background(bg);  
-   Image(wheel,0,0,1000,1000)
+   image(wheel,0,0,1000,1000);
 
    noCursor();
 }
