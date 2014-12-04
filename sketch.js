@@ -1,23 +1,18 @@
 var bg, wheel, wheel1, wheel2, wheel3, wheel4, wheel5, wheel6, wheel7, wheel8;
-var allwheel=[];
-var sizeX=500;
-var sizeY=500;
-var X=[];
-var Y=[];
 
 function setup(){
    createCanvas(1000,1000);
 
    bg = loadImage("bg.png");
    wheel = loadImage("wheel.png");
-   allwheel[0]=loadImage("wheel1.png");
-   allwheel[1]=loadImage("wheel2.png"); 
-   allwheel[2]=loadImage("wheel3.png");
-   allwheel[3]=loadImage("wheel4.png");
-   allwheel[4]=loadImage("wheel5.png");
-   allwheel[5]=loadImage("wheel6.png");
-   allwheel[6]=loadImage("wheel7.png");
-   allwheel[7]=loadImage("wheel8.png");
+   wheel1 = loadImage("wheel1.png");
+   wheel2 = loadImage("wheel2.png"); 
+   wheel3 = loadImage("wheel3.png"); 
+   wheel4 = loadImage("wheel4.png"); 
+   wheel5 = loadImage("wheel5.png"); 
+   wheel6 = loadImage("wheel6.png"); 
+   wheel7 = loadImage("wheel7.png"); 
+   wheel8 = loadImage("wheel8.png"); 
 }
 
 
@@ -37,7 +32,7 @@ function draw(){
    //ellipse(500,500,500,500);
 
 
-   image(allwheel[i],500 + Math.cos(timing1*2*PI)*500 + Math.cos(timing2*4*PI)*500-100,
+   image(wheel1,500 + Math.cos(timing1*2*PI)*500 + Math.cos(timing2*4*PI)*500-100,
       500 + Math.sin(timing1*2*PI)*500 + Math.sin(timing2*4*PI)*500-100,200,200);
 
 }
