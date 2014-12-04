@@ -14,4 +14,9 @@ function draw(){
    image(wheel1,0,0,200,200);
    
    noCursor();
+
+   라인
+   noFill();
+   stroke(255);
+   ellipse(500,500,500,500);
 }
