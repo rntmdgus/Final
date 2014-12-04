@@ -10,8 +10,6 @@ function setup(){
 
    bg = loadImage("bg.png");
    wheel = loadImage("wheel.png");
-   wheel1 = loadImage("wheel1.png");
-
    allwheel[0]=loadImage("wheel1.png");
    allwheel[1]=loadImage("wheel2.png"); 
    allwheel[2]=loadImage("wheel3.png");
