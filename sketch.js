@@ -1,4 +1,4 @@
-var bg, wheel1, wheel2, wheel3, wheel4, wheel5, wheel6, wheel7, wheel8;
+var bg, wheel1, wheel2, flag;
 
 function setup(){
    createCanvas(2000,1000);
@@ -6,12 +6,7 @@ function setup(){
    bg = loadImage("bg.png");
    wheel1 = loadImage("wheel1.png");
    wheel2 = loadImage("wheel2.png"); 
-   wheel3 = loadImage("wheel3.png"); 
-   wheel4 = loadImage("wheel4.png"); 
-   wheel5 = loadImage("wheel5.png"); 
-   wheel6 = loadImage("wheel6.png"); 
-   wheel7 = loadImage("wheel7.png"); 
-   wheel8 = loadImage("wheel8.png"); 
+   flag = loadImage("flag.png");
 }
 
 
