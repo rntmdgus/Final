@@ -1,7 +1,7 @@
 var bg, wheel, wheel1, wheel2, wheel3, wheel4, wheel5, wheel6, wheel7, wheel8;
 
 function setup(){
-   createCanvas(1000,1000);
+   createCanvas(2000,1000);
 
    bg = loadImage("bg.png");
    wheel = loadImage("wheel.png");
@@ -32,6 +32,6 @@ function draw(){
    //stroke(255);
    //ellipse(500,500,500,500);
 
-   image(wheel1,500 + Math.cos(timing1*2*PI)*230-100,500 + Math.sin(timing1*2*PI)*230-100,200,200);
+   image(wheel1,1000 + Math.cos(timing1*2*PI)*500-100,500 + Math.sin(timing1*2*PI)*250-100,200,200);
 
 }
