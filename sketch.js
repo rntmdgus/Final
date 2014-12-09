@@ -21,7 +21,10 @@ function draw(){
    
    noCursor();
 
+   //깃발위아래
+   image(falg,0,0+cos(t1*2*PI)*10,2000,1000);
 
+   //관람차
    var t1 = (new Date()%15000)/15000;
 
    for(var i = 0 ; i < 8 ; i++){
