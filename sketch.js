@@ -28,17 +28,7 @@ function draw(){
    var t1 = (new Date()%15000)/15000;
    var t2 = (new Date()%6000)/6000;
 
-   //성
-   if(countcastel < 50){
-   //성1
-   image(castel1,0,100,300);
-   } else if(countcastel < 100){
-   //성2
-   image(castel2,0,0,100,300); 
-   } else{
-   countcastel=0;
-   }
-   countcastel++;
+
 
 
    //관람차
@@ -54,6 +44,17 @@ function draw(){
    //깃발위아래
    image(falg,100,300+cos(t2*2*PI)*10,100,100);
 
+   //성
+   if(countcastel < 50){
+   //성1
+   image(castel1,0,100,300);
+   } else if(countcastel < 100){
+   //성2
+   image(castel2,0,0,100,300); 
+   } else{
+   countcastel=0;
+   }
+   countcastel++;
 
 }
 
