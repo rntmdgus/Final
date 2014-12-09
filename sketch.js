@@ -32,6 +32,6 @@ function draw(){
    //stroke(255);
    //ellipse(500,500,500,500);
 
-   image(wheel1,500 + Math.cos(timing1*2*PI)*250-100,500 + Math.sin(timing1*2*PI)*250-100,200,200);
+   image(wheel1,500 + Math.cos(timing1*2*PI)*230-100,500 + Math.sin(timing1*2*PI)*230-100,200,200);
 
 }
