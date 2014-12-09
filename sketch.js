@@ -47,10 +47,10 @@ function draw(){
    //성
    if(countcastel < 50){
    //성1
-   image(castel1,100,300,200,200);
+   image(castel1,0,0,2000,1000);
    } else if(countcastel < 100){
    //성2
-   image(castel2,100,300,200,200); 
+   image(castel2,0,0,2000,1000); 
    } else{
    countcastel=0;
    }
