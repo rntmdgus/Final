@@ -1,4 +1,4 @@
-var bg, wheel1, wheel2, flag;
+var bg, wheel1, wheel2, castel1, castel2, flag;
 
 function setup(){
    createCanvas(2000,1000);
@@ -6,6 +6,8 @@ function setup(){
    bg = loadImage("bg.png");
    wheel1 = loadImage("wheel1.png");
    wheel2 = loadImage("wheel2.png"); 
+   castel1 = loadImage("castel1.png");
+   castel2 = loadImage("castel2.png"); 
    flag = loadImage("flag.png");
 }
 
@@ -20,7 +22,7 @@ function draw(){
    var timing2 = (new Date()%duration2)/duration2;
    
    noCursor();
-   
+
    var t1 = (new Date()%15000)/15000;
    var t2 = (new Date()%6000)/6000;
 
