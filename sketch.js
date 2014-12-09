@@ -18,7 +18,7 @@ function setup(){
 
 function draw(){
    background(bg);  
-   image(wheel,0,0,1000,1000);
+   image(wheel,0,0,2000,1000);
 
    var duration1 = 8000;
    var timing1 = (new Date()%duration1)/duration1;
@@ -32,6 +32,6 @@ function draw(){
    //stroke(255);
    //ellipse(500,500,500,500);
 
-   image(wheel1,1000 + Math.cos(timing1*2*PI)*500-100,500 + Math.sin(timing1*2*PI)*250-100,200,200);
+   image(wheel1,1000 + Math.cos(timing1*2*PI)*250-100,500 + Math.sin(timing1*2*PI)*250-100,200,200);
 
 }
