@@ -1,10 +1,10 @@
-var bg, wheel, wheel1, wheel2, wheel3, wheel4, wheel5, wheel6, wheel7, wheel8;
+var bg, wheelone, wheel1, wheel2, wheel3, wheel4, wheel5, wheel6, wheel7, wheel8;
 
 function setup(){
    createCanvas(2000,1000);
 
    bg = loadImage("bg.png");
-   wheel = loadImage("wheel.png");
+   wheelone = loadImage("wheelone.png");
    wheel1 = loadImage("wheel1.png");
    wheel2 = loadImage("wheel2.png"); 
    wheel3 = loadImage("wheel3.png"); 
@@ -19,7 +19,7 @@ function setup(){
 function draw(){
 
    background(bg);  
-   image(wheel,0,0,2000,1000);
+   image(wheelone,0,0,2000,1000);
 
    var duration1 = 8000;
    var timing1 = (new Date()%duration1)/duration1;
