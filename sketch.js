@@ -26,7 +26,7 @@ function draw(){
    noCursor();
 
    var t1 = (new Date()%15000)/15000;
-   var t2 = (new Date()%6000)/6000;
+
 
 
    //관람차
@@ -47,6 +47,10 @@ function draw(){
    //깃발위아래
    image(falg,100,300+cos(t2*2*PI)*10,100,100);
    
+
+   var countcastel = (new Date()%6000)/6000;
+
+
    //성
    if(countcastel < 50){
    //성1
