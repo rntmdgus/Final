@@ -28,19 +28,6 @@ function draw(){
    var t1 = (new Date()%15000)/15000;
    var t2 = (new Date()%6000)/6000;
 
-
-
-
-   //관람차
-   for(var i = 0 ; i < 8 ; i++){
-      image(wheel1,1000+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
-   }
-
-   for(var i = 0 ; i < 4 ; i++){
-      image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
-   }
-
-
    //깃발위아래
    image(falg,100,300+cos(t2*2*PI)*10,100,100);
 
@@ -55,6 +42,19 @@ function draw(){
    countcastel=0;
    }
    countcastel++;
+
+
+   //관람차
+   for(var i = 0 ; i < 8 ; i++){
+      image(wheel1,1000+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
+   }
+
+   for(var i = 0 ; i < 4 ; i++){
+      image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
+   }
+
+
+
 
 }
 
