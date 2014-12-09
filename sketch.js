@@ -20,12 +20,16 @@ function draw(){
    var timing2 = (new Date()%duration2)/duration2;
    
    noCursor();
+   
+   var t1 = (new Date()%15000)/15000;
+   var t2 = (new Date()%6000)/6000;
+
 
    //깃발위아래
-   image(falg,0,0+cos(t1*2*PI)*10,2000,1000);
+   image(falg,100,300+cos(t2*2*PI)*10,100,100);
 
    //관람차
-   var t1 = (new Date()%15000)/15000;
+
 
    for(var i = 0 ; i < 8 ; i++){
       image(wheel1,1000+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
