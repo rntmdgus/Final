@@ -10,7 +10,6 @@ function setup(){
    castel2 = loadImage("castel2.png"); 
    flag = loadImage("flag.png");
 
-   countcastel=0;
 }
 
 
@@ -45,23 +44,19 @@ function draw(){
 
 
    //깃발위아래
-   image(falg,100,300+cos(t2*2*PI)*10,100,100);
+   //image(falg,100,300+cos(t2*2*PI)*10,100,100);
    
 
-   var countcastel = (new Date()%6000)/6000;
+   var tf = (new Date()%6000)/6000;
 
 
    //성
-   if(countcastel < 50){
-   //성1
-   image(castel1,0,0,2000,1000);
-   } else if(countcastel < 100){
-   //성2
-   image(castel2,0,0,2000,1000); 
-   } else{
-   countcastel=0;
-   }
-   countcastel++;
+   if(tf <0.5){
+    image(castel1,0,0,2000,1000);
+   }else{
+    image(castel2,0,0,2000,1000);
+   } 
+
 
 
 }
