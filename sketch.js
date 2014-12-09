@@ -35,6 +35,15 @@ function draw(){
    }
 
 
+
+
+   for(var i = 0 ; i < 4 ; i++){
+      image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
+   }
+
+
+
+
    //깃발위아래
    image(falg,100,300+cos(t2*2*PI)*10,100,100);
    
@@ -49,15 +58,6 @@ function draw(){
    countcastel=0;
    }
    countcastel++;
-
-
-   for(var i = 0 ; i < 4 ; i++){
-      image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
-   }
-
-
-
-
 
 
 }
