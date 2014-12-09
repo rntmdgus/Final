@@ -27,12 +27,9 @@ function draw(){
    var t2 = (new Date()%6000)/6000;
 
 
-   //깃발위아래
-   image(falg,100,300+cos(t2*2*PI)*10,100,100);
+
 
    //관람차
-
-
    for(var i = 0 ; i < 8 ; i++){
       image(wheel1,1000+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
    }
@@ -41,11 +38,10 @@ function draw(){
       image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
-   //라인
-   //noFill();
-   //stroke(255);
-   //ellipse(500,500,500,500);
+   
+   //깃발위아래
+   image(falg,100,300+cos(t2*2*PI)*10,100,100);
 
-   //image(wheel1,1000 + Math.cos(timing1*2*PI)*250-100,500 + Math.sin(timing1*2*PI)*250-100,200,200);
 
 }
+
