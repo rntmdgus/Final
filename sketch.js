@@ -27,11 +27,19 @@ function draw(){
    
    noCursor();
 
+   var t1 = (new Date()%6000)/6000;
+   
+   for(var i = 0 ; i < 5 ;i++){
+      image(wheel2,1000+sin(t1*2*PI+2*PI/5*i)*250-100,500+cos(t1*2*PI+2*PI/5*i)*250-100,200,200);
+   }
+
+   for(var i = 0 ; i < 5 ;i++){
+      image(wheel3,1000+sin(t1*2*PI+2*PI/5*i)*250-100,500+cos(t1*2*PI+2*PI/5*i)*250-100,200,200);
    //라인
    //noFill();
    //stroke(255);
    //ellipse(500,500,500,500);
 
-   image(wheel1,1000 + Math.cos(timing1*2*PI)*250-100,500 + Math.sin(timing1*2*PI)*250-100,200,200);
+   //image(wheel1,1000 + Math.cos(timing1*2*PI)*250-100,500 + Math.sin(timing1*2*PI)*250-100,200,200);
 
 }
