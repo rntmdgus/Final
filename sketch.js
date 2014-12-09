@@ -17,6 +17,7 @@ function setup(){
 
 
 function draw(){
+
    background(bg);  
    image(wheel,0,0,2000,1000);
 
@@ -29,12 +30,12 @@ function draw(){
 
    var t1 = (new Date()%6000)/6000;
 
-   for(var i = 0 ; i < 5 ; i++){
-      image(wheel2,1000+sin(t1*2*PI+2*PI/5*i)*250-100,500+cos(t1*2*PI+2*PI/5*i)*250-100,200,200);
+   for(var i = 0 ; i < 7 ; i++){
+      image(wheel2,1000+sin(t1*2*PI+2*PI/7*i)*250-100,500+cos(t1*2*PI+2*PI/7*i)*250-100,200,200);
    }
 
-   for(var i = 0 ; i < 5 ; i++){
-      image(wheel3,1000+sin(t1*2*PI+2*PI/5*i)*250-100,500+cos(t1*2*PI+2*PI/5*i)*250-100,200,200);
+   for(var i = 0 ; i < 7 ; i++){
+      image(wheel3,1000+sin(t1*2*PI+2*PI/7*i)*250-100,500+cos(t1*2*PI+2*PI/7*i)*250-100,200,200);
    }
    //라인
    //noFill();
