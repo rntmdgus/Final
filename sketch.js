@@ -31,7 +31,7 @@ function draw(){
    var t1 = (new Date()%15000)/15000;
 
    for(var i = 0 ; i < 4 ; i++){
-      image(wheel1,1000+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
+      image(wheel1,1000+sin(t1*2*PI+2*PI/6*i)*250-100,500+cos(t1*2*PI+2*PI/6*i)*250-100,200,200);
    }
 
    for(var i = 0 ; i < 4 ; i++){
