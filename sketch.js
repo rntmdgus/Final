@@ -44,9 +44,9 @@ function draw(){
    //성
    if(tf <0.5){
     image(castel1,100,300,300,500);
-   }else{
+   }else if(tf <1.0){
     image(castel2,100,300,300,500);
-   } else{
+   }else{
     image(castel3,100,300,300,500);
    } 
 
