@@ -205,14 +205,14 @@ function draw(){
    count9=0;
    } 
 
-   drawsnow10(1030,count10);
+   drawsnow10(300,count10);
    count10=count10+4;
    if(count10>1000){
    count10=0;
    } 
 
-   drawsnow10(1130,count10);
-   count10=count10+4.5;
+   drawsnow10(1800,count10);
+   count10=count10+4;
    if(count10>1000){
    count10=0;
    } 
