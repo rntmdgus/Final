@@ -1,6 +1,6 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 var snow1, snow2, snow3, snow4;
-var dir1=1;
+var y1=1;
 
 function setup(){
    createCanvas(2000,1000);
@@ -65,29 +65,22 @@ function draw(){
 
 function drawSnow(){
    var r=Math.random();
-    stroke(255,255,255,128);
-    strokeWeight(20);
+   stroke(255,255,255,120);
+   strokeWeight(10);
 
-    fill(255);
-    ellipse(700,dir1,50,50);
-    ellipse(100,dir1+500,20,20);
-    ellipse(200,dir1+r,30,30);
-    ellipse(300,dir1+800,25,25);
-    ellipse(400,dir1+100,20,20);
-    ellipse(500,dir1+350,34,34);
-    ellipse(600,dir1+270,47,47);
-    ellipse(800,dir1+900,25,25);
-    ellipse(900,dir1+670,34,34);
-    ellipse(1000,dir1+230,17,17);
-    ellipse(1100,dir1+590,28,28);
-    ellipse(1200,dir1+312,33,33);
-    ellipse(1300,dir1+100,50,50);
-    ellipse(1400,dir1+400,27,27);
-    ellipse(1500,dir1+777,35,35);
-    dir1=dir1+4;     
-    if(dir1>1500){
-     dir1=-1500;
- }
+   image(snow1,120,y1,50,50);
+   image(snow1,600,y1+70,50,50);
+   image(snow1,600,y1+70,50,50);
+   image(snow1,150,y1+r,30,30);
+   image(snow1,400,y1+r,30,30);
 
+   image(snow2,250,y1+40,50,50);
+   image(snow2,480,y1+80,50,50);
+   image(snow2,400,y1+700,50,50);
+    y1=y1+4;     
+    if(y1>1500){
+     y1=-1500;
+      }
+   }
 }
 
