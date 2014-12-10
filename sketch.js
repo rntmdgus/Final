@@ -89,7 +89,7 @@ function draw(){
 
    drawsnow1(1600,count1);
    count1=count1+5;
-   if(count4>800){
+   if(count1>1000){
    count1=0;
    } 
 
@@ -100,13 +100,13 @@ function draw(){
    }
 
    function drawsnow2(x,y){
-   image(snow2,x,y,50,50);
+   image(snow1,x,y,50,50);
    }   
 
    function drawsnow3(x,y){
-   image(snow3,x,y,20,20);
+   image(snow1,x,y,50,50);
    }
 
    function drawsnow4(x,y){
-   image(snow4,x,y,10,10);
+   image(snow1,x,y,50,50);
    }
