@@ -22,7 +22,7 @@ function draw(){
    var t1 = (new Date()%15000)/15000;
    var t2 = (new Date()%5000)/5000;
 
-   var tf = (new Date()%6000)/6000;
+   var t3 = (new Date()%3000)/3000;
 
    //관람차
    for(var i = 0 ; i < 8 ; i++){
@@ -42,10 +42,12 @@ function draw(){
    
 
    //성
-   if(tf <0.5){
-    image(castel1,60,300,300,500);
+   if(t3 <0.5){
+    image(castel1,40,330,300,500);
+   }else if(t3 <1.0){
+    image(castel2,40,330,300,500);
    }else{
-    image(castel2,60,300,300,500);
-   } 
+    image(castel3,40,330,300,500);
+   }    
 }
 
