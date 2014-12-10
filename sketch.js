@@ -181,13 +181,13 @@ function draw(){
    count7=0;
    }  
 
-   drawsnow8(800,count8);
+   drawsnow8(600,count8);
    count8=count8+4;
    if(count8>1000){
    count8=0;
    } 
 
-   drawsnow8(1250,count8);
+   drawsnow8(1450,count8);
    count8=count8+4;
    if(count8>1000){
    count8=0;
