@@ -75,19 +75,19 @@ function draw(){
    count1=0;
    } 
 
-   drawsnow1(400,count1);
+   drawsnow2(400,count1);
    count1=count1+10;
    if(count1>1400){
    count1=0;
    } 
 
-   drawsnow1(800,count1);
+   drawsnow3(800,count1);
    count1=count1+15;
    if(count1>1200){
    count1=0;
    } 
 
-   drawsnow1(1600,count1);
+   drawsnow4(1600,count1);
    count1=count1+5;
    if(count1>1000){
    count1=0;
