@@ -194,25 +194,25 @@ function draw(){
    } 
 
    drawsnow9(120,count9);
-   count9=count9+4;
+   count9=count9+2;
    if(count9>1000){
    count9=0;
    } 
 
    drawsnow9(1010,count9);
-   count9=count9+4;
+   count9=count9+2;
    if(count9>1000){
    count9=0;
    } 
 
    drawsnow10(300,count10);
-   count10=count10+4;
+   count10=count10+6;
    if(count10>1000){
    count10=0;
    } 
 
    drawsnow10(1800,count10);
-   count10=count10+4;
+   count10=count10+6;
    if(count10>1000){
    count10=0;
    } 
