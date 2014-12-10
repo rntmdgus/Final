@@ -1,6 +1,7 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 var snow1, snow2, snow3, snow4;
 var count1, count2, count3, count4;
+var dir1=1;
 
 function setup(){
    createCanvas(2000,1000);
@@ -38,7 +39,7 @@ function draw(){
    var t3 = (new Date()%2000)/2000;
 
    //깃발위아래
-   image(flag,120,300+cos(t2*2*PI)*13,100,100);
+   image(flag,120,300+cos(t2*2*PI)*12,100,100);
    
 
    //성
@@ -69,32 +70,37 @@ function draw(){
    }
 
 
-   drawsnow1(0,count1);
-   count1=count1+5;
-   if(count1>1000){
-   count1=0;
-   } 
+//   drawsnow1(0,count1);
+//   count1=count1+5;
+//   if(count1>1000){
+//   count1=0;
+//   } 
 
-   drawsnow1(400,count2);
-   count2=count2+5;
-   if(count1>1000){
-   count2=0;
-   } 
-
-   drawsnow1(800,count3);
-   count3=count3+5;
-   if(count1>1000){
-   count3=0;
-   } 
-
-   drawsnow1(1600,count4);
-   count4=count4+5;
-   if(count1>1000){
-   count4=0;
-   } 
 
 }
 
-   function drawsnow1(x,y){
-   image(snow1,x,y,50,50);
-   }
+function drawSnow(){
+    var r=Math.random();
+    stroke(255,255,255,128);
+    strokeWeight(20);
+
+    fill(255);
+    ellipse(700,dir1,50,50);
+    ellipse(100,dir1+500,20,20);
+    ellipse(200,dir1+r,30,30);
+    ellipse(300,dir1+800,25,25);
+    ellipse(400,dir1+100,20,20);
+    ellipse(500,dir1+350,34,34);
+    ellipse(600,dir1+270,47,47);
+    ellipse(800,dir1+900,25,25);
+    ellipse(900,dir1+670,34,34);
+    ellipse(1000,dir1+230,17,17);
+    ellipse(1100,dir1+590,28,28);
+    ellipse(1200,dir1+312,33,33);
+    ellipse(1300,dir1+100,50,50);
+    ellipse(1400,dir1+400,27,27);
+    ellipse(1500,dir1+777,35,35);
+    dir1=dir1+3;     
+    if(dir1>1700){
+     dir1=-1700;
+ }
