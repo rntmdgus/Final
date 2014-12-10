@@ -20,10 +20,10 @@ function setup(){
    snow4 = loadImage("snow4.png");
    flag = loadImage("flag.png");
 
-   count1 = 1500;
-   count2 = 2000;
-   count3 = 2500;
-   count4 = 3000;
+   count1 = 3000;
+   count2 = 4000;
+   count3 = 5000;
+   count4 = 6000;
 
 }
 
