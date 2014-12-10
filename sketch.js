@@ -67,10 +67,10 @@ function draw(){
 
       //관람차
    for(var i = 0 ; i < 8 ; i++){
-      image(wheel1,1000+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
+      image(wheel1,790+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
    }
    for(var i = 0 ; i < 4 ; i++){
-      image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
+      image(wheel2,790+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
    drawsnow1(100,count1);
