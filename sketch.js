@@ -76,14 +76,14 @@ function draw(){
    } 
 
    drawsnow2(400,count1);
-   count1=count1+10;
-   if(count1>1400){
+   count1=count1+5;
+   if(count1>1000){
    count1=0;
    } 
 
    drawsnow3(800,count1);
-   count1=count1+15;
-   if(count1>1200){
+   count1=count1+5;
+   if(count1>1000){
    count1=0;
    } 
 
