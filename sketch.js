@@ -69,73 +69,73 @@ function draw(){
    }
 
    drawsnow1(100,count1);
-   count1=count1+3;
+   count1=count1+2;
    if(count1>1000){
    count1=0;
    } 
 
    drawsnow1(700,count1);
-   count1=count1+3;
+   count1=count1+2;
    if(count1>1000){
    count1=0;
    } 
 
    drawsnow1(1100,count1);
-   count1=count1+3;
+   count1=count1+2;
    if(count1>1000){
    count1=0;
    } 
 
    drawsnow2(400,count2);
-   count2=count2+4;
+   count2=count2+3;
    if(count2>1000){
    count2=0;
    } 
 
    drawsnow2(50,count2);
-   count2=count2+4;
+   count2=count2+3;
    if(count2>1000){
    count2=0;
    } 
 
    drawsnow2(700,count2);
-   count2=count2+4;
+   count2=count2+3;
    if(count2>1000){
    count2=0;
    }
 
    drawsnow3(800,count3);
-   count3=count3+5;
+   count3=count3+4;
    if(count3>1000){
    count3=0;
    } 
 
    drawsnow3(240,count3);
-   count3=count3+5;
+   count3=count3+4;
    if(count3>1000){
    count3=0;
    } 
 
    drawsnow3(550,count3);
-   count3=count3+5;
+   count3=count3+4;
    if(count3>1000){
    count3=0;
    } 
 
    drawsnow4(1600,count4);
-   count4=count4+6;
+   count4=count4+5;
    if(count4>1000){
    count4=0;
    } 
 
    drawsnow4(310,count4);
-   count4=count4+6;
+   count4=count4+5;
    if(count4>1000){
    count4=0;
    } 
 
    drawsnow4(1900,count4);
-   count4=count4+6;
+   count4=count4+5;
    if(count4>1000){
    count4=0;
    } 
