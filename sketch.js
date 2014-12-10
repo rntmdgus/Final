@@ -1,4 +1,6 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
+var snow1, snow2, snow3, snow4;
+var y1=1;
 
 function setup(){
    createCanvas(2000,1000);
@@ -12,6 +14,10 @@ function setup(){
    castel3 = loadImage("castel3.png"); 
    castel4 = loadImage("castel4.png"); 
    castel5 = loadImage("castel5.png");
+   snow1 = loadImage("snow1.png");
+   snow2 = loadImage("snow2.png");
+   snow3 = loadImage("snow3.png");
+   snow4 = loadImage("snow4.png");
    flag = loadImage("flag.png");
 
 }
@@ -57,7 +63,24 @@ function draw(){
       image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
+function drawSnow(){
+   var r=Math.random();
+   stroke(255,255,255,128);
+   strokeWeight(10);
 
+   image(snow1,120,y1,50,50);
+   image(snow1,600,y1+70,50,50);
+   image(snow1,600,y1+70,50,50);
+   image(snow1,150,y1+r,30,30);
+   image(snow1,400,y1+r,30,30);
+
+   image(snow2,250,y1+40,50,50);
+   imgae(snow2,480,y1+80,50,50);
+   image(snow2,400,y1+700,50,50);
+    y1=y1+4;     
+    if(y1>300){
+     y1=-300;
+ }
 
 }
 
