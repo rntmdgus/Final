@@ -1,4 +1,4 @@
-var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, flag, countcastel;
+var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 
 function setup(){
    createCanvas(2000,1000);
@@ -11,6 +11,7 @@ function setup(){
    castel2 = loadImage("castel2.png"); 
    castel3 = loadImage("castel3.png"); 
    castel4 = loadImage("castel4.png"); 
+   castel5 = loadImage("castel5.png");
    flag = loadImage("flag.png");
 
 }
@@ -23,21 +24,23 @@ function draw(){
 
    var t1 = (new Date()%15000)/15000;
    var t2 = (new Date()%5000)/5000;
-   var t3 = (new Date()%2000)/2000;
+   var t3 = (new Date()%3000)/3000;
 
    //깃발위아래
    image(flag,120,300+cos(t2*2*PI)*10,100,100);
    
 
    //성
-   if(t3 <0.25){
+   if(t3 <0.2){
     image(castel1,20,330,300,500);
-   }else if(t3 <0.5){
+   }else if(t3 <0.4){
     image(castel2,20,330,300,500);
-   }else if(t3 <0.75){
+   }else if(t3 <0.6){
     image(castel3,20,330,300,500);
-   }else{
+   }else if(t3 <0.8){
     image(castel4,20,330,300,500);
+   }else{
+    image(castel5,20,330,300,500);
    } 
 
 
