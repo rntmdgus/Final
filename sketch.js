@@ -82,13 +82,13 @@ function draw(){
    } 
 
    drawsnow3(800,count3);
-   count3=count3+5;
+   count3=count3+8;
    if(count3>1000){
    count3=0;
    } 
 
    drawsnow4(1600,count4);
-   count4=count4+5;
+   count4=count4+4;
    if(count4>1000){
    count4=0;
    } 
