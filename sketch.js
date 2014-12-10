@@ -76,7 +76,7 @@ function draw(){
    }
 
 
-   var t=(new Date()%15000)/15000;
+   var t=(new Date()%20000)/20000;
 
    //사람
    if(50*sin(t*2*PI+PI/6*i)<0){
