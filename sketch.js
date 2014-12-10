@@ -23,11 +23,11 @@ function draw(){
    noCursor();
 
    var t1 = (new Date()%15000)/15000;
-   var t2 = (new Date()%5000)/5000;
+   var t2 = (new Date()%4000)/4000;
    var t3 = (new Date()%2000)/2000;
 
    //깃발위아래
-   image(flag,120,300+cos(t2*2*PI)*20,100,100);
+   image(flag,120,300+cos(t2*2*PI)*15,100,100);
    
 
    //성
