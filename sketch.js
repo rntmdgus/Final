@@ -77,5 +77,6 @@ function draw(){
 }
 
    function drawsnow1(x,y){
-   image(snow1,x,y,50,50);
+   var r=Math.random();
+   image(snow1,x,y+r,50,50);
    }
