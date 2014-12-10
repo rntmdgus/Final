@@ -27,7 +27,7 @@ function draw(){
    var t3 = (new Date()%2000)/2000;
 
    //깃발위아래
-   image(flag,120,290+cos(t2*2*PI)*20,100,100);
+   image(flag,120,290+cos(t2*2*PI)*17,100,100);
    
 
    //성
