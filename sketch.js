@@ -1,6 +1,6 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 var snow1, snow2, snow3, snow4;
-var count1, count2, count3, count4, count5, count6;
+var count1, count2, count3, count4, count5, count6, count7, count8;
 
 function setup(){
    createCanvas(2000,1000);
@@ -26,6 +26,8 @@ function setup(){
    count4 = 0;
    count5 = 0;
    count6 = 0;
+   count7 = 0;
+   count8 = 0;
 }
 
 
@@ -87,52 +89,52 @@ function draw(){
    count1=0;
    } 
 
-   drawsnow2(400,count1);
-   count1=count1+3;
-   if(count1>1000){
-   count1=0;
+   drawsnow2(400,count2);
+   count2=count2+3;
+   if(count2>1000){
+   count2=0;
    } 
 
-   drawsnow2(50,count1);
-   count1=count1+3;
-   if(count1>1000){
-   count1=0;
+   drawsnow2(50,count2);
+   count2=count2+3;
+   if(count2>1000){
+   count2=0;
    } 
 
-   drawsnow2(700,count1);
-   count1=count1+3;
-   if(count1>1000){
-   count1=0;
+   drawsnow2(700,count2);
+   count2=count2+3;
+   if(count2>1000){
+   count2=0;
    }
 
-   drawsnow3(800,count1);
-   count1=count1+4;
-   if(count1>1000){
-   count1=0;
+   drawsnow3(800,count3);
+   count3=count3+4;
+   if(count3>1000){
+   count3=0;
    } 
 
-   drawsnow3(240,count1);
-   count1=count1+4;
-   if(count1>1000){
-   count1=0;
+   drawsnow3(240,count3);
+   count3=count3+4;
+   if(count3>1000){
+   count3=0;
    } 
 
-   drawsnow3(550,count1);
-   count1=count1+4;
-   if(count1>1000){
-   count1=0;
+   drawsnow3(550,count3);
+   count3=count3+4;
+   if(count3>1000){
+   count3=0;
    } 
 
-   drawsnow4(1600,count1);
-   count1=count1+5;
-   if(count1>1000){
-   count1=0;
+   drawsnow4(1600,count4);
+   count4=count4+5;
+   if(count4>1000){
+   count4=0;
    } 
 
-   drawsnow4(310,count1);
-   count1=count1+5;
-   if(count1>1000){
-   count1=0;
+   drawsnow4(310,count4);
+   count4=count4+5;
+   if(count4>1000){
+   count4=0;
    } 
 
    drawsnow4(1900,count4);
@@ -147,22 +149,34 @@ function draw(){
    count5=0;
    } 
 
-   drawsnow6(1400,count5);
+   drawsnow5(1350,count5);
    count5=count5+4;
    if(count5>1000){
    count5=0;
-   }
-
-   drawsnow7(300,count6);
-   count6=count6+4;
-   if(count6>1000){
-   count6=0;
    } 
 
-   drawsnow8(700,count6);
-   count6=count6+4;
+   drawsnow6(1400,count6);
+   count6=count6+5;
    if(count6>1000){
    count6=0;
+   }
+
+   drawsnow6(1400,count6);
+   count6=count6+5;
+   if(count6>1000){
+   count6=0;
+   }
+
+   drawsnow7(300,count7);
+   count7=count7+3;
+   if(count7>1000){
+   count7=0;
+   } 
+
+   drawsnow8(700,count8);
+   count8=count8+4;
+   if(count8>1000){
+   count8=0;
    } 
 
 }
