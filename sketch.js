@@ -8,7 +8,6 @@ function setup(){
    wheel2 = loadImage("wheel2.png"); 
    castel1 = loadImage("castel1.png");
    castel2 = loadImage("castel2.png"); 
-   castel3 = loadImage("castel3.png");
    flag = loadImage("flag.png");
 
 }
@@ -40,7 +39,8 @@ function draw(){
    //깃발위아래
    image(flag,100,300+cos(t2*2*PI)*10,100,100);
    
-
+   image(castel1,200,500,300,500);
+   
    //성
    if(tf <0.5){
     image(castel1,100,300,300,500);
