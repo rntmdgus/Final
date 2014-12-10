@@ -1,6 +1,6 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 var snow1, snow2, snow3, snow4;
-var count1, count2, count3, count4, count5;
+var count1, count2, count3, count4, count5, count6;
 
 function setup(){
    createCanvas(2000,1000);
@@ -25,6 +25,7 @@ function setup(){
    count3 = 0;
    count4 = 0;
    count5 = 0;
+   count6 = 0;
 }
 
 
@@ -146,10 +147,22 @@ function draw(){
    count5=0;
    } 
 
-   drawsnow5(1400,count5);
+   drawsnow6(1400,count5);
    count5=count5+4;
    if(count5>1000){
    count5=0;
+   }
+
+   drawsnow7(300,count6);
+   count6=count6+4;
+   if(count6>1000){
+   count6=0;
+   } 
+
+   drawsnow8(700,count6);
+   count6=count6+4;
+   if(count6>1000){
+   count6=0;
    } 
 
 }
@@ -163,7 +176,7 @@ function draw(){
    }   
 
    function drawsnow3(x,y){
-   image(snow1,x,y,50,50);
+   image(snow1,x,y,35,35);
    }
 
    function drawsnow4(x,y){
@@ -171,9 +184,17 @@ function draw(){
    }
 
    function drawsnow5(x,y){
-   image(snow2,x,y,50,50);
+   image(snow2,x,y,60,60);
    }
 
    function drawsnow6(x,y){
    image(snow2,x,y,40,40);
+   }
+
+   function drawsnow7(x,y){
+   image(snow3,x,y,40,40);
+   }
+
+   function drawsnow8(x,y){
+   image(snow3,x,y,30,30);
    }
