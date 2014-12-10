@@ -78,10 +78,10 @@ function draw(){
    var t=(new Date()%10000)/10000;
 
    //사람
-   if(50*sin(t*2*PI+PI/3*i)<0){
+   if(50*sin(t1*2*PI+2*PI/4*i)<0){
       image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-50,870+cos(t1*2*PI+2*PI/4*i)*20-50,100,100);
    }
-   if(50*sin(t*2*PI+PI/3*i)>=0){
+   if(50*sin(t1*2*PI+2*PI/4*i)>=0){
       image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-75,870+cos(t1*2*PI+2*PI/4*i)*20-75,150,150);
    }
 
