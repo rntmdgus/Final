@@ -65,8 +65,6 @@ function draw(){
 
 function drawSnow(){
    var r=Math.random();
-   stroke(255,255,255,128);
-   strokeWeight(10);
 
    image(snow1,120,y1,50,50);
    image(snow1,600,y1+70,50,50);
