@@ -212,7 +212,7 @@ function draw(){
    } 
 
    drawsnow10(1130,count10);
-   count10=count10+4;
+   count10=count10+4.5;
    if(count10>1000){
    count10=0;
    } 
