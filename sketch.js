@@ -62,11 +62,10 @@ function draw(){
    for(var i = 0 ; i < 4 ; i++){
       image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
+}
 
 function drawSnow(){
    var r=Math.random();
-   stroke(255,255,255,120);
-   strokeWeight(10);
 
    image(snow1,120,y1,50,50);
    image(snow1,600,y1+70,50,50);
@@ -81,6 +80,5 @@ function drawSnow(){
     if(y1>1500){
      y1=-1500;
       }
-   }
 }
 
