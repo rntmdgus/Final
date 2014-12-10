@@ -68,7 +68,7 @@ function draw(){
       image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
-   drawsnow1(50,count1);
+   drawsnow1(0,count1);
    count1=count1+5;
    if(count1>1000){
    count1=0;
@@ -76,6 +76,6 @@ function draw(){
 
 }
 
-   function drawsnow1(){
-   image(snow1,0,0,50,50);
+   function drawsnow1(x,y){
+   image(snow1,x,y,50,50);
    }
