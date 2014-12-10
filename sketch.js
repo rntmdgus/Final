@@ -89,7 +89,7 @@ function draw(){
 
    drawsnow1(1600,count1);
    count1=count1+5;
-   if(count4>1000){
+   if(count4>800){
    count1=0;
    } 
 
