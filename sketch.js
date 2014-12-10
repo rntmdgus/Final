@@ -19,9 +19,9 @@ function draw(){
    noCursor();
 
    var t1 = (new Date()%15000)/15000;
-   var t2 = (new Date()%10000)/10000;
+   var t2 = (new Date()%5000)/5000;
 
-
+   var tf = (new Date()%6000)/6000;
 
    //관람차
    for(var i = 0 ; i < 8 ; i++){
@@ -36,21 +36,19 @@ function draw(){
    }
 
 
-
-
    //깃발위아래
    image(flag,100,300+cos(t2*2*PI)*10,100,100);
    
 
-   var tf = (new Date()%6000)/6000;
-
-
    //성
    if(tf <0.5){
-    image(castel1,0,0,2000,1000);
+    image(castel1,100,300,300,500);
    }else{
-    image(castel2,0,0,2000,1000);
+    image(castel2,100,300,300,500);
+   } else{
+    image(castel3,100,300,300,500);
    } 
+
 
 
 
