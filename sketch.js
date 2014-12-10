@@ -1,6 +1,7 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 var snow1, snow2, snow3, snow4;
 var count1, count2, count3, count4;
+var snow=[0,500,1000,1500,1900];
 
 function setup(){
    createCanvas(2000,1000);
@@ -68,8 +69,9 @@ function draw(){
       image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
-   drawsnow1(0+r,count1);
-   var r=Math.random(2000,0);
+
+   for (var i = 1; i < 4; i = i +1)
+   drawsnow1(sonw[i],count1);
    count1=count1+5;
    if(count1>1000){
    count1=0;
