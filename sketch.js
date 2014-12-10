@@ -76,7 +76,7 @@ function draw(){
    } 
 
    drawsnow2(400,count2);
-   count2=count2+5;
+   count2=count2+7;
    if(count2>1000){
    count2=0;
    } 
