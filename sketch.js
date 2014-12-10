@@ -77,8 +77,8 @@ function drawSnow(){
    image(snow2,480,y1+80,50,50);
    image(snow2,400,y1+700,50,50);
     y1=y1+4;     
-    if(y1>1500){
-     y1=-1500;
+    if(y1>1000){
+     y1=-1000;
       }
 }
 
