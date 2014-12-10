@@ -1,4 +1,4 @@
-var bg, wheel1, wheel2, castel1, castel2, flag, countcastel;
+var bg, wheel1, wheel2, castel1, castel2, castel3, flag, countcastel;
 
 function setup(){
    createCanvas(2000,1000);
@@ -8,6 +8,7 @@ function setup(){
    wheel2 = loadImage("wheel2.png"); 
    castel1 = loadImage("castel1.png");
    castel2 = loadImage("castel2.png"); 
+   castel3 = loadImage("castel3.png");
    flag = loadImage("flag.png");
 
 }
