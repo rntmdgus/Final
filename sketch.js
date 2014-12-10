@@ -1,4 +1,4 @@
-var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen1, humen2, flag, countcastel;
+var bg, bg2, bg3, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen1, humen2, flag, countcastel;
 var snow1, snow2, snow3, snow4;
 var count1, count2, count3, count4, count5, count6, count7, count8, count9, count10;
 
@@ -7,6 +7,7 @@ function setup(){
 
    bg = loadImage("bg.png");
    bg2 = loadImage("bg2.png");
+   bg3 = loadImage("bg3.png");
    wheel1 = loadImage("wheel1.png");
    wheel2 = loadImage("wheel2.png"); 
    castel1 = loadImage("castel1.png");
@@ -86,6 +87,8 @@ function draw(){
       image(humen2,1450+cos(t*2*PI)*250-50,870+sin(t*2*PI)*20-50,100,100);
    }
 
+   //빙판아래
+   image(bg3,0,0,2000,1000)
 
    drawsnow1(100,count1);
    count1=count1+2;
