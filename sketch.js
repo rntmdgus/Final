@@ -81,16 +81,16 @@ function draw(){
    count2=0;
    } 
 
-   drawsnow3(800,count3);
-   count3=count3+5;
-   if(count3>1000){
-   count3=0;
+   drawsnow3(800,count1);
+   count1=count1+5;
+   if(count1>1000){
+   count1=0;
    } 
 
-   drawsnow4(1600,count4);
-   count4=count4+5;
-   if(count4>1000){
-   count4=0;
+   drawsnow4(1600,count1);
+   count1=count1+5;
+   if(count1>1000){
+   count1=0;
    } 
 
 }
