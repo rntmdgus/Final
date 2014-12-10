@@ -76,7 +76,7 @@ function draw(){
 
    //사람
       image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-50,880+cos(t1*2*PI+2*PI/4*i)*20-50,100,100);
-
+      image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-75,880+cos(t1*2*PI+2*PI/4*i)*20-75,150,150);
 
    drawsnow1(100,count1);
    count1=count1+2;
