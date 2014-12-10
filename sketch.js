@@ -46,5 +46,6 @@ function draw(){
    for(var i = 0 ; i < 4 ; i++){
       image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
+   
 }
 
