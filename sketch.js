@@ -19,6 +19,7 @@ function draw(){
    noCursor();
 
    var t1 = (new Date()%15000)/15000;
+   var t2 = (new Date()%10000)/10000;
 
 
 
