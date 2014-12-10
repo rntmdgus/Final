@@ -1,4 +1,4 @@
-var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen, flag, countcastel;
+var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen1, humen2, flag, countcastel;
 var snow1, snow2, snow3, snow4;
 var count1, count2, count3, count4, count5, count6, count7, count8, count9, count10;
 
@@ -14,7 +14,8 @@ function setup(){
    castel3 = loadImage("castel3.png"); 
    castel4 = loadImage("castel4.png"); 
    castel5 = loadImage("castel5.png");
-   humen = loadImage("humen.png");
+   humen1 = loadImage("humen1.png");
+   humen2 = loadImage("humen2.png");
    snow1 = loadImage("snow1.png");
    snow2 = loadImage("snow2.png");
    snow3 = loadImage("snow3.png");
@@ -79,10 +80,10 @@ function draw(){
 
    //사람
    if(50*sin(t1*2*PI+4*PI/2*i)<0){
-      image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-50,870+cos(t1*2*PI+2*PI/4*i)*20-50,100,100);
+      image(humen1,1450+sin(t1*2*PI+2*PI/4*i)*250-50,870+cos(t1*2*PI+2*PI/4*i)*20-50,100,100);
    }
    if(50*sin(t1*2*PI+4*PI/2*i)>=0){
-      image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-75,870+cos(t1*2*PI+2*PI/4*i)*20-75,150,150);
+      image(humen2,1450+sin(t1*2*PI+2*PI/4*i)*250-50,870+cos(t1*2*PI+2*PI/4*i)*20-50,100,100);
    }
 
 
