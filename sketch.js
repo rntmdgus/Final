@@ -1,6 +1,6 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 var snow1, snow2, snow3, snow4;
-var count1, count2, count3, count4, count5, count6, count7, count8;
+var count1, count2, count3, count4, count5, count6, count7, count8, count9, count10;
 
 function setup(){
    createCanvas(2000,1000);
@@ -28,6 +28,8 @@ function setup(){
    count6 = 0;
    count7 = 0;
    count8 = 0;
+   count9 = 0;
+   count10 = 0;
 }
 
 
@@ -191,6 +193,18 @@ function draw(){
    count8=0;
    } 
 
+   drawsnow9(120,count9);
+   count9=count9+4;
+   if(count9>1000){
+   count9=0;
+   } 
+
+   drawsnow9(1010,count9);
+   count9=count9+4;
+   if(count9>1000){
+   count9=0;
+   } 
+
 }
 
    function drawsnow1(x,y){
@@ -223,4 +237,12 @@ function draw(){
 
    function drawsnow8(x,y){
    image(snow3,x,y,20,20);
+   }
+
+   function drawsnow9(x,y){
+   image(snow4,x,y,10,10);
+   }
+
+   function drawsnow10(x,y){
+   image(snow4,x,y,15,15);
    }
