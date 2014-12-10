@@ -1,6 +1,7 @@
 var bg, bg2, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, flag, countcastel;
 var snow1, snow2, snow3, snow4;
 var y1=1;
+var r;
 
 function setup(){
    createCanvas(2000,1000);
@@ -19,6 +20,8 @@ function setup(){
    snow3 = loadImage("snow3.png");
    snow4 = loadImage("snow4.png");
    flag = loadImage("flag.png");
+
+   r = random(255);
 
 }
 
