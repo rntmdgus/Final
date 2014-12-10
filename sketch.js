@@ -75,21 +75,21 @@ function draw(){
    count1=0;
    } 
 
-   drawsnow2(400,count2);
+   drawsnow1(400,count2);
    count2=count2+5;
-   if(count1>1000){
+   if(count2>1000){
    count2=0;
    } 
 
-   drawsnow3(800,count3);
+   drawsnow1(800,count3);
    count3=count3+5;
-   if(count1>1000){
+   if(count3>1000){
    count3=0;
    } 
 
-   drawsnow4(1600,count4);
+   drawsnow1(1600,count4);
    count4=count4+5;
-   if(count1>1000){
+   if(count3>1000){
    count4=0;
    } 
 
