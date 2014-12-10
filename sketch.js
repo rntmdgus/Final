@@ -24,23 +24,23 @@ function draw(){
 
    var t1 = (new Date()%15000)/15000;
    var t2 = (new Date()%5000)/5000;
-   var t3 = (new Date()%3000)/3000;
+   var t3 = (new Date()%2000)/2000;
 
    //깃발위아래
-   image(flag,120,300+cos(t2*2*PI)*10,100,100);
+   image(flag,120,300+cos(t2*2*PI)*20,100,100);
    
 
    //성
    if(t3 <0.2){
-    image(castel1,20,330,300,500);
+    image(castel1,15,330,300,500);
    }else if(t3 <0.4){
-    image(castel2,20,330,300,500);
+    image(castel2,15,330,300,500);
    }else if(t3 <0.6){
-    image(castel3,20,330,300,500);
+    image(castel3,15,330,300,500);
    }else if(t3 <0.8){
-    image(castel4,20,330,300,500);
+    image(castel4,15,330,300,500);
    }else{
-    image(castel5,20,330,300,500);
+    image(castel5,15,330,300,500);
    } 
 
 
