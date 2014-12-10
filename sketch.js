@@ -70,7 +70,7 @@ function draw(){
 
 
    drawsnow1(0,count1);
-   count1=count1+5;
+   count1=count1+6;
    if(count1>1000){
    count1=0;
    } 
@@ -82,7 +82,7 @@ function draw(){
    } 
 
    drawsnow1(600,count1);
-   count1=count1+7;
+   count1=count1+6;
    if(count1>1000){
    count1=0;
    } 
