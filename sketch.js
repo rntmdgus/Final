@@ -75,22 +75,22 @@ function draw(){
    count1=0;
    } 
 
-   drawsnow1(400,count2);
-   count2=count2+5;
-   if(count2>1000){
-   count2=0;
+   drawsnow1(400,count1);
+   count1=count1+10;
+   if(count1>1400){
+   count1=0;
    } 
 
-   drawsnow1(800,count3);
-   count3=count3+5;
-   if(count3>1000){
-   count3=0;
+   drawsnow1(800,count1);
+   count1=count1+15;
+   if(count1>1200){
+   count1=0;
    } 
 
-   drawsnow1(1600,count4);
-   count4=count4+5;
+   drawsnow1(1600,count1);
+   count1=count1+5;
    if(count4>1000){
-   count4=0;
+   count1=0;
    } 
 
 }
@@ -100,13 +100,13 @@ function draw(){
    }
 
    function drawsnow2(x,y){
-   image(snow1,x,y,50,50);
+   image(snow2,x,y,50,50);
    }   
 
    function drawsnow3(x,y){
-   image(snow1,x,y,50,50);
+   image(snow3,x,y,20,20);
    }
 
    function drawsnow4(x,y){
-   image(snow1,x,y,50,50);
+   image(snow4,x,y,10,10);
    }
