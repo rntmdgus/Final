@@ -68,21 +68,8 @@ function draw(){
       image(wheel2,1000+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
-
-   drawsnow1(0,count1);
-   count1=count1+6;
-   if(count1>1000){
-   count1=0;
-   } 
-
-   drawsnow1(200,count1);
-   count1=count1+6;
-   if(count1>1000){
-   count1=0;
-   } 
-
-   drawsnow1(600,count1);
-   count1=count1+6;
+   drawsnow1(100,count1);
+   count1=count1+7;
    if(count1>1000){
    count1=0;
    } 
