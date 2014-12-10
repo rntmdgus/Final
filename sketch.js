@@ -70,13 +70,12 @@ function draw(){
 
    drawsnow1(0,count1);
    count1=count1+5;
-   if(count1>2000){
+   if(count1>1000){
    count1=0;
    } 
+
+}
 
    function drawsnow1(){
    image(snow1,0,0,50,50);
    }
-
-}
-
