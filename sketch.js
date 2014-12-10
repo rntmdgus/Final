@@ -74,9 +74,17 @@ function draw(){
       image(wheel2,750+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
+   
+   var t=(new Date()%20000)/20000;
+
    //사람
-      image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-50,880+cos(t1*2*PI+2*PI/4*i)*20-50,100,100);
-      image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-75,880+cos(t1*2*PI+2*PI/4*i)*20-75,150,150);
+   if(50*sin(t*2*PI+PI/6*i)>=0){
+      image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-50,870+cos(t1*2*PI+2*PI/4*i)*20-50,100,100);
+   }
+   if(50*sin(t*2*PI+PI/6*i)>=0){
+      image(humen,1450+sin(t1*2*PI+2*PI/4*i)*250-75,870+cos(t1*2*PI+2*PI/4*i)*20-75,150,150);
+   }
+
 
    drawsnow1(100,count1);
    count1=count1+2;
