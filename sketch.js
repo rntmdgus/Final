@@ -16,12 +16,6 @@ function setup(){
 function draw(){
 
    background(bg);  
-
-   var duration1 = 8000;
-   var timing1 = (new Date()%duration1)/duration1;
-   var duration2 = 7000;
-   var timing2 = (new Date()%duration2)/duration2;
-   
    noCursor();
 
    var t1 = (new Date()%15000)/15000;
@@ -44,7 +38,7 @@ function draw(){
 
 
    //깃발위아래
-   image(falg,100,300,100,100);
+   image(flag,100,300+cos(t2*2*PI)*10,100,100);
    
 
    var tf = (new Date()%6000)/6000;
