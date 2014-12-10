@@ -44,7 +44,7 @@ function draw(){
 
 
    //깃발위아래
-   //image(falg,100,300+cos(t2*2*PI)*10,100,100);
+   image(falg,100,300,100,100);
    
 
    var tf = (new Date()%6000)/6000;
