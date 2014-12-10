@@ -205,6 +205,18 @@ function draw(){
    count9=0;
    } 
 
+   drawsnow10(1030,count10);
+   count10=count10+4;
+   if(count10>1000){
+   count10=0;
+   } 
+
+   drawsnow10(1130,count10);
+   count10=count10+4;
+   if(count10>1000){
+   count10=0;
+   } 
+
 }
 
    function drawsnow1(x,y){
