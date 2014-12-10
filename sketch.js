@@ -91,7 +91,7 @@ function draw(){
    count1=0;
    } 
 
-   drawsnow2(1450,count2);
+   drawsnow2(1400,count2);
    count2=count2+3;
    if(count2>1000){
    count2=0;
