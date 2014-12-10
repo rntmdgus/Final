@@ -69,7 +69,7 @@ function draw(){
    }
 
    drawsnow1(0+r,count1);
-   var r=Math.random();
+   var r=Math.random(2000,0);
    count1=count1+5;
    if(count1>1000){
    count1=0;
