@@ -65,18 +65,15 @@ function draw(){
 
 function drawSnow(){
    var r=Math.random();
-   stroke(255,255,255,120);
-   strokeWeight(10);
-
    image(snow1,120,y1,50,50);
    image(snow1,600,y1+70,50,50);
    image(snow1,600,y1+70,50,50);
    image(snow1,150,y1+r,30,30);
    image(snow1,400,y1+r,30,30);
-
    image(snow2,250,y1+40,50,50);
    image(snow2,480,y1+80,50,50);
    image(snow2,400,y1+700,50,50);
+   
     y1=y1+4;     
     if(y1>1500){
      y1=-1500;
