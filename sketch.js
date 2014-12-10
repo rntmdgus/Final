@@ -79,7 +79,7 @@ function draw(){
 
    drawsnow1(700,count1);
    count1=count1+2;
-   if(count1>1000){
+   if(count1>1100){
    count1=0;
    } 
 
@@ -91,7 +91,7 @@ function draw(){
 
    drawsnow2(400,count2);
    count2=count2+3;
-   if(count2>1000){
+   if(count2>1400){
    count2=0;
    } 
 
@@ -101,13 +101,13 @@ function draw(){
    count2=0;
    } 
 
-   drawsnow2(700,count2);
+   drawsnow2(750,count2);
    count2=count2+3;
-   if(count2>1000){
+   if(count2>800){
    count2=0;
    }
 
-   drawsnow3(800,count3);
+   drawsnow3(900,count3);
    count3=count3+4;
    if(count3>1000){
    count3=0;
@@ -115,13 +115,13 @@ function draw(){
 
    drawsnow3(240,count3);
    count3=count3+4;
-   if(count3>1000){
+   if(count3>1200){
    count3=0;
    } 
 
    drawsnow3(550,count3);
    count3=count3+4;
-   if(count3>1000){
+   if(count3>1100){
    count3=0;
    } 
 
@@ -133,13 +133,13 @@ function draw(){
 
    drawsnow4(310,count4);
    count4=count4+5;
-   if(count4>1000){
+   if(count4>900){
    count4=0;
    } 
 
    drawsnow4(1900,count4);
    count4=count4+5;
-   if(count4>1000){
+   if(count4>1100){
    count4=0;
    } 
 
@@ -151,7 +151,7 @@ function draw(){
 
    drawsnow5(1350,count5);
    count5=count5+4;
-   if(count5>1000){
+   if(count5>800){
    count5=0;
    } 
 
@@ -161,9 +161,9 @@ function draw(){
    count6=0;
    }
 
-   drawsnow6(1400,count6);
+   drawsnow6(1550,count6);
    count6=count6+5;
-   if(count6>1000){
+   if(count6>900){
    count6=0;
    }
 
