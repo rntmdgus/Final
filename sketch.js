@@ -146,7 +146,7 @@ function draw(){
    count5=0;
    } 
 
-   drawsnow5(1100,count5);
+   drawsnow5(1400,count5);
    count5=count5+4;
    if(count5>1000){
    count5=0;
