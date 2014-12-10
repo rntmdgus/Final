@@ -74,6 +74,12 @@ function draw(){
    count1=0;
    } 
 
+   drawsnow1(300,count1);
+   count1=count1+6;
+   if(count1>1000){
+   count1=0;
+   } 
+
    drawsnow2(400,count2);
    count2=count2+7;
    if(count2>1000){
