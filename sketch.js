@@ -40,13 +40,12 @@ function draw(){
    //깃발위아래
    image(flag,100,300+cos(t2*2*PI)*10,100,100);
    
-   image(castel1,200,500,300,500);
-   
+
    //성
    if(tf <0.5){
-    image(castel1,120,200,300,500);
+    image(castel1,60,300,300,500);
    }else{
-    image(castel2,120,200,300,500);
+    image(castel2,60,300,300,500);
    } 
 }
 
