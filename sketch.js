@@ -86,8 +86,8 @@ function draw(){
 
 
    //서커스 깃발위아래
-   image(flag2,0,0+cos(t2*4*PI)*12,2000,1000);
-   image(flag2,0,0+cos(t2*4*PI)*12,2000,1000);
+   image(flag2,0,0+cos(t2*3*PI)*10,2000,1000);
+   image(flag2,0,0+cos(t2*3*PI)*10,2000,1000);
 
    //롤러 코스터
    image(coaster,0,0,2000,1000);
