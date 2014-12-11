@@ -87,7 +87,10 @@ function draw(){
    image(flag2,0,0+cos(t2*2*PI)*12,2000,1000);
    image(flag2,0,0+cos(t2*2*PI)*12,2000,1000);
 
-   
+   //롤러 코스터
+   image(coaster,0,0,2000,1000);
+
+
    //써커스
    if(t4 <0.5){
     image(circus1,0,0,2000,1000);
