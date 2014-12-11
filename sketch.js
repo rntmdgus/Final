@@ -74,10 +74,10 @@ function draw(){
    } 
 
 
-   //눈관람차
-   if(t5 <0.3){
+   //배경
+   if(t5 <0.4){
     image(bg21,0,0,2000,1000);
-   }else if(t5 <0.6){
+   }else if(t5 <0.7){
     image(bg22,0,0,2000,1000);
    }else{
     image(bg23,0,0,2000,1000);
