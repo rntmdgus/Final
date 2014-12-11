@@ -78,6 +78,7 @@ function draw(){
    }
 
 
+
    var t=(new Date()%20000)/20000;
 
    //사람
