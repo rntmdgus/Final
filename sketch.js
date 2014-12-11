@@ -1,4 +1,4 @@
-var bg, bg2, bg3, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen1, humen2, flag1, flag2, countcastel;
+var bg, bg21, bg22, bg23, bg3, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen1, humen2, flag1, flag2, countcastel;
 var coaster, circus1, circus2;
 var snow1, snow2, snow3, snow4;
 var count1, count2, count3, count4, count5, count6, count7, count8, count9, count10;
@@ -7,7 +7,9 @@ function setup(){
    createCanvas(2000,1000);
 
    bg = loadImage("bg.png");
-   bg2 = loadImage("bg2.png");
+   bg21 = loadImage("bg21.png");
+   bg22 = loadImage("bg22.png");
+   bg22 = loadImage("bg23.png");
    bg3 = loadImage("bg3.png");
    wheel1 = loadImage("wheel1.png");
    wheel2 = loadImage("wheel2.png"); 
