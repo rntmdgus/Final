@@ -1,5 +1,5 @@
 var bg, bg2, bg3, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen1, humen2, flag1, flag2, countcastel;
-var circus1, circus2;
+var coaster, circus1, circus2;
 var snow1, snow2, snow3, snow4;
 var count1, count2, count3, count4, count5, count6, count7, count8, count9, count10;
 
@@ -18,6 +18,7 @@ function setup(){
    castel5 = loadImage("castel5.png");
    circus1 = loadImage("circus1.png");
    circus2 = loadImage("circus2.png");
+   coaster = loadImage("coaster.png");
    humen1 = loadImage("humen1.png");
    humen2 = loadImage("humen2.png");
    snow1 = loadImage("snow1.png");
@@ -43,6 +44,7 @@ function setup(){
 
 function draw(){
 
+   //배경
    background(bg);  
    noCursor();
 
@@ -69,7 +71,7 @@ function draw(){
    } 
 
 
-
+   //눈관람차
    image(bg2,0,0,2000,1000);
 
 
@@ -110,7 +112,7 @@ function draw(){
    }
 
 
-   //빙판아래
+   //빙판아래부분
    image(bg3,0,0,2000,1000)
 
 
