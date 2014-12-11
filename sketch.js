@@ -83,9 +83,9 @@ function draw(){
 
    //써커스
    if(t4 <0.5){
-    image(circus1,1500,600,500,200);
+    image(circus1,0,0,2000,1000);
    }else{
-    image(circus2,1500,600,500,200);
+    image(circus2,0,0,2000,1000);
    } 
 
 
