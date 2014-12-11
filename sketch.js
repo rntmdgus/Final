@@ -1,4 +1,5 @@
 var bg, bg2, bg3, wheel1, wheel2, castel1, castel2, castel3, castel4, castel5, humen1, humen2, flag, countcastel;
+var circus1, circus2;
 var snow1, snow2, snow3, snow4;
 var count1, count2, count3, count4, count5, count6, count7, count8, count9, count10;
 
@@ -15,6 +16,8 @@ function setup(){
    castel3 = loadImage("castel3.png"); 
    castel4 = loadImage("castel4.png"); 
    castel5 = loadImage("castel5.png");
+   circus1 = loadImage("circus1.png");
+   circus2 = loadImage("circus2.png");
    humen1 = loadImage("humen1.png");
    humen2 = loadImage("humen2.png");
    snow1 = loadImage("snow1.png");
@@ -45,6 +48,7 @@ function draw(){
    var t1 = (new Date()%15000)/15000;
    var t2 = (new Date()%4000)/4000;
    var t3 = (new Date()%2000)/2000;
+   var t4 = (new Date()%3000)/3000;
 
    //깃발위아래
    image(flag,120,300+cos(t2*2*PI)*12,100,100);
@@ -69,7 +73,7 @@ function draw(){
 
 
 
-      //관람차
+   //관람차
    for(var i = 0 ; i < 8 ; i++){
       image(wheel1,750+sin(t1*2*PI+2*PI/8*i)*250-100,500+cos(t1*2*PI+2*PI/8*i)*250-100,200,200);
    }
@@ -77,6 +81,12 @@ function draw(){
       image(wheel2,750+sin(t1*2*PI+2*PI/4*i)*250-100,500+cos(t1*2*PI+2*PI/4*i)*250-100,200,200);
    }
 
+   //써커스
+   if(t4 <0.5){
+    image(circus1,1500,600,500,200);
+   }else{
+    image(circus2,1500,600,500,200);
+   } 
 
 
    var t=(new Date()%20000)/20000;
@@ -93,6 +103,8 @@ function draw(){
    //빙판아래
    image(bg3,0,0,2000,1000)
 
+
+   //눈
    drawsnow1(100,count1);
    count1=count1+2;
    if(count1>1000){
