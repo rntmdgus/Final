@@ -100,10 +100,10 @@ function draw(){
 
    //사람
    if(500*sin(t*2*PI)<0){
-      image(humen1,1450+cos(t*2*PI)*250-100,870+sin(t*2*PI)*20-100,200,200);
+      image(humen1,1450+cos(t*2*PI)*250-100,850+sin(t*2*PI)*20-100,200,200);
    }
    if(500*sin(t*2*PI)>=0){
-      image(humen2,1450+cos(t*2*PI)*250-100,870+sin(t*2*PI)*20-100,200,200);
+      image(humen2,1450+cos(t*2*PI)*250-100,850+sin(t*2*PI)*20-100,200,200);
    }
 
 
