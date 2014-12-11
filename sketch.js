@@ -88,6 +88,7 @@ function draw(){
       image(humen2,1450+cos(t*2*PI)*250-100,870+sin(t*2*PI)*20-100,200,200);
    }
 
+
    //빙판아래
    image(bg3,0,0,2000,1000)
 
