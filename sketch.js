@@ -74,6 +74,10 @@ function draw(){
    } 
 
 
+   //롤러 코스터
+   image(coaster,0,0,2000,1000);
+
+
    //배경
    if(t5 <0.3){
     image(bg21,0,0,2000,1000);
@@ -96,9 +100,6 @@ function draw(){
    //서커스 깃발위아래
    image(flag2,0,0+cos(t2*3*PI)*10,2000,1000);
    image(flag2,0,0+cos(t2*3*PI)*10,2000,1000);
-
-   //롤러 코스터
-   image(coaster,0,0,2000,1000);
 
 
    //써커스
