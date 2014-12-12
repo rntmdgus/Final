@@ -54,7 +54,7 @@ function draw(){
    var t2 = (new Date()%4000)/4000;
    var t3 = (new Date()%2000)/2000;
    var t4 = (new Date()%3000)/3000;
-   var t5 = (new Date()%5000)/5000;
+   var t5 = (new Date()%2500)/2500;
 
    //깃발위아래
    image(flag1,120,300+cos(t2*2*PI)*12,100,100);
@@ -79,15 +79,9 @@ function draw(){
 
 
    //배경
-   if(t5 <0.2){
+   if(t5 <0.5){
     image(bg21,0,0,2000,1000);
-   }else if(t5 <0.4){
-    image(bg22,0,0,2000,1000);
-   }else if(t5 <0.6){
-    image(bg23,0,0,2000,1000);
-   }else if(t5 <0.8){
-    image(bg21,0,0,2000,1000);
-   }else{
+   }}else{
     image(bg22,0,0,2000,1000);
    } 
 
