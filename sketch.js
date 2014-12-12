@@ -79,12 +79,16 @@ function draw(){
 
 
    //배경
-   if(t5 <0.3){
+   if(t5 <0.2){
     image(bg21,0,0,2000,1000);
-   }else if(t5 <0.6){
+   }else if(t5 <0.4){
     image(bg22,0,0,2000,1000);
-   }else{
+   }else if(t5 <0.6){
     image(bg23,0,0,2000,1000);
+   }else if(t5 <0.8){
+    image(bg21,0,0,2000,1000);
+   }else{
+    image(bg22,0,0,2000,1000);
    } 
 
 
