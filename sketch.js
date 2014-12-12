@@ -81,7 +81,7 @@ function draw(){
    //배경
    if(t5 <0.5){
     image(bg21,0,0,2000,1000);
-   }}else{
+   }else{
     image(bg22,0,0,2000,1000);
    } 
 
